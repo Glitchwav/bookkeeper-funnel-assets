@@ -114,7 +114,15 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'message',
     title: 'FB ad headlines + primary text (legacy variants)',
     module: './copy/ads',
-    summary: 'Older angles; prefer src/ads adaptedAdVariants for Jev-mapped keepers.',
+    summary: 'Legacy copy/ads angles; prefer adaptedAdVariants (IMAGE) + IMAGE_AD_PATTERNS.',
+  },
+  {
+    id: 'ads.normal',
+    kind: 'ads',
+    sixM: 'message',
+    title: 'Normal IMAGE Ad Library examples',
+    module: './ads/normalExamples',
+    summary: 'Jev-selected IMAGE/static Meta examples + IMAGE_AD_PATTERNS for spin-up.',
   },
   {
     id: 'ads.adapted',
@@ -131,7 +139,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'map',
     title: 'INGESTED_ADS + LONG_RUNNING_PATTERNS',
     module: './ads/ingested',
-    summary: 'Jev-ingested Meta Ad Library keepers (provenance only — do not paste bodies).',
+    summary: 'IMAGE/static magnet variants from Financial Cents / TaxDome / Social Accountant patterns; PRIMARY_CTA unchanged.',
   },
   {
     id: 'copy.cta',
@@ -224,7 +232,7 @@ export const SIX_MS_MAP: Record<
     howWeUseIt:
       'Customer is the hero. Ideal life first (on-time close, evenings back). Mechanism (sheet / scripts) second. Adapt long-running keeper angles; never plagiarize.',
     checklist: 'Hero copy + adapted ads use ideal-state first. One story, bookkeeper ICP.',
-    assetIds: ['copy.ads', 'ads.adapted', 'landing.hero', 'creatives.fb'],
+    assetIds: ['copy.ads', 'ads.adapted', 'ads.normal', 'landing.hero', 'creatives.fb'],
   },
   micro_commitment: {
     label: 'Micro-commitment',

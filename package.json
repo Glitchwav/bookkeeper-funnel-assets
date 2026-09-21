@@ -15,7 +15,8 @@
     "./github/*": "./src/github/*",
     "./ads": "./src/ads/index.ts",
     "./ads/*": "./src/ads/*",
-    "./data/ingested": "./data/meta-ad-library-ingested.json"
+    "./data/ingested": "./data/meta-ad-library-ingested.json",
+    "./data/normal": "./data/meta-ad-library-normal-selected.json"
   },
   "files": [
     "src",

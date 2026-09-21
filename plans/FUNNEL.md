@@ -29,16 +29,18 @@ GTM law for this package. Agents should treat this as the source of truth when p
 
 ## Creative pattern sources (adapt, do not copy)
 
-Long-running Meta Ad Library keepers are in `data/meta-ad-library-ingested.json` (Jev-ingested). Prefer angles:
+**Default format: IMAGE / static.** Prefer Jev-selected normal IMAGE examples in `data/meta-ad-library-normal-selected.json` (`NORMAL_AD_EXAMPLES`, `IMAGE_AD_PATTERNS`):
 
-- `chaos_to_system`
-- `before_after_metrics`
-- `time_life_balance`
-- `tool_overwhelm`
+- **PRIMARY:** Financial Cents `#914432501713212` — one place / every client document; short pain about texts & email chains
+- TaxDome `#1094014579789282` — named lead-magnet / guide frame
+- TaxDome `#3765554656920393` — insight headline (“early move”)
+- Social Accountant `#1649956189164177` — FREE named gift (magnet pattern only)
 
-Discard wrong-ICP keepers (career training, consumer marketplaces, etc. — already in `discarded`).
+**Avoid as default:** Workflows-For-Tax-Pros UGC / named video testimonials. Those angles are demoted to `deprecatedVideoTestimonialVariants` (not for spin-up).
 
-Adapted primary texts live in `src/ads/adaptedVariants.ts` with `sourceAdArchiveId` + library URL for provenance. **Never paste competitor ad text verbatim.**
+Legacy long-runners remain in `data/meta-ad-library-ingested.json` for research. Wrong-ICP rows stay in `discarded`.
+
+Default adapted texts: `src/ads/adaptedVariants.ts` (IMAGE). Cite `sourceAdArchiveId` + library URL as provenance only. **Never paste competitor ad text verbatim.**
 
 ## Agent import cheat sheet
 
@@ -49,8 +51,9 @@ import {
   FUNNEL_CATALOG,
   PRIMARY_CTA,
   adaptedAdVariants,
-  INGESTED_ADS,
-  LONG_RUNNING_PATTERNS,
+  IMAGE_AD_PATTERNS,
+  NORMAL_AD_EXAMPLES,
+  deprecatedVideoTestimonialVariants,
 } from '@glitchwav/bookkeeper-funnel-assets';
 ```
 

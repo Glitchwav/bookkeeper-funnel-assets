@@ -51,6 +51,10 @@ export {
   PREFERRED_ANGLES,
   keptByPreferredAngle,
   adaptedAdVariants,
+  deprecatedVideoTestimonialVariants,
+  NORMAL_AD_EXAMPLES,
+  IMAGE_AD_PATTERNS,
+  PRIMARY_IMAGE_TEMPLATE_IDS,
 } from './ads/index.js';
 export type {
   IngestedAd,
@@ -59,6 +63,11 @@ export type {
   JevIngestLabel,
   LongRunningPattern,
   AdaptedAdVariant,
+  ImageAdPattern,
+  CreativeFormat,
+  NormalAdExample,
+  NormalAdBundle,
+  ImageAdPatternCard,
 } from './ads/index.js';
 
 export {

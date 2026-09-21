@@ -67,18 +67,25 @@ import { Hero } from '@glitchwav/bookkeeper-funnel-assets/landing/Hero';
 import { adaptedAdVariants, INGESTED_ADS } from '@glitchwav/bookkeeper-funnel-assets/ads';
 ```
 
-## Adapted FB ads (from long-running keepers)
+## Adapted FB ads (IMAGE / static defaults)
 
-Five original primary texts + headlines in `src/ads/adaptedVariants.ts`, mapped to Jev angles from `data/meta-ad-library-ingested.json`. Each row cites `sourceAdArchiveId` + Ad Library URL as **pattern provenance**. Bodies are rewritten — do not paste competitor copy.
+Default magnet creatives are **IMAGE/static** in `src/ads/adaptedVariants.ts`, patterned on Jev-selected normal examples in `data/meta-ad-library-normal-selected.json` (`NORMAL_AD_EXAMPLES`, `IMAGE_AD_PATTERNS`).
 
-Preferred angles: `chaos_to_system`, `before_after_metrics`, `time_life_balance`, `tool_overwhelm`. Wrong-ICP rows (career training, Bark, etc.) stay in `INGESTED_ADS.discarded`.
+**PRIMARY template:** Financial Cents `#914432501713212` (one place / every document). Also: TaxDome named magnet + insight; Social Accountant free-gift frame.
+
+Workflows video-testimonial story ads are **demoted** to `deprecatedVideoTestimonialVariants` — not for default spin-up.
 
 ```ts
-import { adaptedAdVariants } from '@glitchwav/bookkeeper-funnel-assets';
+import {
+  adaptedAdVariants,
+  IMAGE_AD_PATTERNS,
+  NORMAL_AD_EXAMPLES,
+  deprecatedVideoTestimonialVariants,
+} from '@glitchwav/bookkeeper-funnel-assets';
 
 for (const ad of adaptedAdVariants) {
+  // ad.format === 'IMAGE'
   // ad.cta === 'Grab your free Missing-Docs Spreadsheet'
-  // ad.primaryText — original wording
   // ad.sourceLibraryUrl — pattern source only
 }
 ```

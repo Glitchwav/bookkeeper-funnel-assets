@@ -13,9 +13,10 @@ import {
   PRIMARY_CTA,        // 'Grab your free Missing-Docs Spreadsheet'
   SIX_MS_MAP,
   OFFERS,
-  adaptedAdVariants,
-  LONG_RUNNING_PATTERNS,
-  INGESTED_ADS,
+  adaptedAdVariants,  // IMAGE/static defaults
+  IMAGE_AD_PATTERNS,
+  NORMAL_AD_EXAMPLES,
+  deprecatedVideoTestimonialVariants, // not for default spin-up
   magnetCopy,
   packCopy,
   welcomeEmail,
@@ -23,7 +24,7 @@ import {
 } from '@glitchwav/bookkeeper-funnel-assets';
 ```
 
-Law: [`plans/FUNNEL.md`](./FUNNEL.md). Variants: `src/ads/adaptedVariants.ts`. Keepers: `data/meta-ad-library-ingested.json`.
+Law: [`plans/FUNNEL.md`](./FUNNEL.md). IMAGE variants: `src/ads/adaptedVariants.ts`. Normal IMAGE sources: `data/meta-ad-library-normal-selected.json`.
 
 ---
 
@@ -50,7 +51,7 @@ Law: [`plans/FUNNEL.md`](./FUNNEL.md). Variants: `src/ads/adaptedVariants.ts`. K
 
 - No stack-first copy (“TaxDome + this + that”). `SIX_MS_MAP.message.checklist`.
 - Hero/landing: `magnetCopy.subheads[0]` already states hero then mechanism. `Hero` defaults to that + `PRIMARY_CTA`.
-- Adapt keeper *angles* from `LONG_RUNNING_PATTERNS`. Never paste competitor bodies (`INGESTED_ADS.kept[].body` is provenance, not copy).
+- Adapt **IMAGE** patterns from `IMAGE_AD_PATTERNS` / `NORMAL_AD_EXAMPLES` (Financial Cents primary). Never paste competitor bodies. Do not default to video testimonials.
 
 ---
 
@@ -127,29 +128,43 @@ No group posting anywhere on this map. No sales calls.
 
 ---
 
-## 7. Creative spin (3–5 angles)
+## 7. Creative spin (IMAGE / static — default)
 
-Import and use as **primary text + headlines**. Wording in repo is already original.
+**Format rule:** ship **IMAGE/static** ads. Do **not** default to Workflows-For-Tax-Pros–style UGC / named video testimonials (Laura/Rebecca/Samantha chaos stories). Those live only in `deprecatedVideoTestimonialVariants` and are marked `deprecated: true`.
+
+Pattern sources (provenance only — rewrite, never paste):
+
+| Role | Page | Archive ID | Library |
+|------|------|------------|---------|
+| **PRIMARY template** | Financial Cents | `914432501713212` | [Ad Library](https://www.facebook.com/ads/library/?id=914432501713212) — “one place / every client document,” short pain about texts/email chains |
+| Named magnet | TaxDome | `1094014579789282` | [Ad Library](https://www.facebook.com/ads/library/?id=1094014579789282) — named free guide frame |
+| Insight headline | TaxDome | `3765554656920393` | [Ad Library](https://www.facebook.com/ads/library/?id=3765554656920393) — early-move insight |
+| Free-gift magnet | Social Accountant | `1649956189164177` | [Ad Library](https://www.facebook.com/ads/library/?id=1649956189164177) — FREE named asset (magnet pattern only) |
 
 ```ts
-import { adaptedAdVariants, LONG_RUNNING_PATTERNS } from '@glitchwav/bookkeeper-funnel-assets';
+import {
+  adaptedAdVariants,          // default IMAGE set
+  IMAGE_AD_PATTERNS,          // pattern cards
+  NORMAL_AD_EXAMPLES,         // wired JSON
+  deprecatedVideoTestimonialVariants, // do not use for spin-up
+  PRIMARY_CTA,
+} from '@glitchwav/bookkeeper-funnel-assets';
 ```
 
-Ship **three** live ads this week (Days 1–7). Hold the fourth/fifth as replacements when something dies.
+Ship **three** live IMAGE ads this week (Days 1–7). Hold the rest as replacements.
 
-| Use | `adaptedAdVariants` id | Angle | Pattern cite (not copy) |
-|-----|------------------------|-------|-------------------------|
-| Ad A | `adapt.chaos-to-system.laura-pattern` | `chaos_to_system` | [796087482831403](https://www.facebook.com/ads/library/?id=796087482831403) |
-| Ad B | `adapt.tool-overwhelm.half-built-pattern` | `tool_overwhelm` | [675637575166635](https://www.facebook.com/ads/library/?id=675637575166635) |
-| Ad C | `adapt.before-after.metrics-pattern` | `before_after_metrics` | [1918627868698430](https://www.facebook.com/ads/library/?id=1918627868698430) |
-| Hold | `adapt.time-life.balance-pattern` | `time_life_balance` | [1614645492842464](https://www.facebook.com/ads/library/?id=1614645492842464) |
-| Hold | `adapt.chaos-growth.systems-broke-pattern` | `chaos_to_system` | [1019731983575752](https://www.facebook.com/ads/library/?id=1019731983575752) |
+| Use | `adaptedAdVariants` id | Pattern | Cite |
+|-----|------------------------|---------|------|
+| Ad A (primary) | `adapt.image.one-place.every-doc` | `one_place_every_doc` | #914432501713212 |
+| Ad B | `adapt.image.named-magnet.month-end-guide` | `named_lead_magnet` | #1094014579789282 |
+| Ad C | `adapt.image.insight.early-close-move` | `insight_hook` | #3765554656920393 |
+| Hold | `adapt.image.magnet.free-named-gift` | `free_gift_magnet` | #1649956189164177 |
+| Hold | `adapt.image.one-place.stop-threads` | `one_place_every_doc` | #914432501713212 |
 
-Each `cta` is `PRIMARY_CTA`. Overlay from `fbAdTemplates` (`creative.matrix`) if you need a static.
+Each `cta` is `PRIMARY_CTA` (`Grab your free Missing-Docs Spreadsheet`). Overlay briefs: `fbAdTemplates` (`creative.image.one-place`, `creative.image.named-magnet`, `creative.image.insight`).
 
-`LONG_RUNNING_PATTERNS` explains how we adapt each angle. `INGESTED_ADS.discarded` (Booming career training, Bark, Performance Financial) stays discarded.
+`IMAGE_AD_PATTERNS` explains how we adapt each IMAGE template. Legacy `LONG_RUNNING_PATTERNS` (Workflows video angles) remain for research only — **not** the default creative brief.
 
----
 
 ## 8. Definition of spun up this week
 

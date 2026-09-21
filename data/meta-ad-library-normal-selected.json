@@ -1,0 +1,152 @@
+{
+  "source": "Documents/meta-ad-library-normal-selected.json",
+  "selected_at": "2026-09-21",
+  "format_preference": "IMAGE",
+  "notes": "Jev-selected IMAGE/static templates for magnet ads. Prefer over VIDEO UGC testimonials. Bodies are provenance only \u2014 adapt, do not plagiarize.",
+  "selected_normal_examples": [
+    {
+      "ad_archive_id": "914432501713212",
+      "page": "Financial Cents",
+      "display_format": "IMAGE",
+      "days_running": 46,
+      "title": "One Portal. Every Client Document.",
+      "body": "No more waiting on texts and email chains for client documents. Our client portal makes it simple for accounting and bookkeeping firms, and their clients.\n\nSchedule a demo to see it in action.",
+      "cta": "Sign up",
+      "link": "https://financial-cents.com/lp/accounting-practice-management-software/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=914432501713212",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_normal_template",
+      "jev_conf": 0.94
+    },
+    {
+      "ad_archive_id": "1094014579789282",
+      "page": "TaxDome",
+      "display_format": "IMAGE",
+      "days_running": 20,
+      "title": "The extension season guide",
+      "body": "When to file, how to track deadlines so nothing gets shuffled, how to reassure a nervous client. All on one page.",
+      "cta": "Download",
+      "link": "https://go.taxdome.com/the-extension-season-guide",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1094014579789282",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_magnet_pattern_only",
+      "jev_conf": 0.34
+    },
+    {
+      "ad_archive_id": "3765554656920393",
+      "page": "TaxDome",
+      "display_format": "IMAGE",
+      "days_running": 20,
+      "title": "The early move that pays off in March",
+      "body": "Most firms file business extensions in March. A few file in January, on purpose. The reasoning is worth stealing.",
+      "cta": "Download",
+      "link": "https://go.taxdome.com/the-extension-season-guide",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=3765554656920393",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_magnet_pattern_only",
+      "jev_conf": 0.43
+    },
+    {
+      "ad_archive_id": "1649956189164177",
+      "page": "Social Accountant",
+      "display_format": "IMAGE",
+      "days_running": 847,
+      "title": "FREE 2 Weeks of Ready-to-Post Content + Bonus Templates",
+      "body": "\ud83d\udce2 Bookkeepers and Accountants \ud83d\udce2 As a business owner, you already have a lot on your mind, from month-end close to client meetings to clean-ups. \n\nDesigning marketing material is probably the last thing on your mind. \n\nThe good news? You can keep it there!\n\nOur DONE-FOR-YOU content is designed to establish YOU as the bookkeeping or tax expert you are, drive engagement, and bring in new client leads! \ud83d\udcb0\n\nReady to get started? \n\nGrab for free 2 weeks worth of social media posts + bonus templates! \n\nClick \"DOWNLOAD\" now!",
+      "cta": "Download",
+      "link": "http://fb.me/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1649956189164177",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_magnet_pattern_only",
+      "jev_conf": 0.74
+    }
+  ],
+  "other_kept": [
+    {
+      "ad_archive_id": "1649956189164177",
+      "page": "Social Accountant",
+      "display_format": "IMAGE",
+      "days_running": 847,
+      "title": "FREE 2 Weeks of Ready-to-Post Content + Bonus Templates",
+      "body": "\ud83d\udce2 Bookkeepers and Accountants \ud83d\udce2 As a business owner, you already have a lot on your mind, from month-end close to client meetings to clean-ups. \n\nDesigning marketing material is probably the last thing on your mind. \n\nThe good news? You can keep it there!\n\nOur DONE-FOR-YOU content is designed to establish YOU as the bookkeeping or tax expert you are, drive engagement, and bring in new client leads! \ud83d\udcb0\n\nReady to get started? \n\nGrab for free 2 weeks worth of social media posts + bonus templates! \n\nClick \"DOWNLOAD\" now!",
+      "cta": "Download",
+      "link": "http://fb.me/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1649956189164177",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_magnet_pattern_only",
+      "jev_conf": 0.74
+    },
+    {
+      "ad_archive_id": "1914920233227298",
+      "page": "Social Accountant",
+      "display_format": "IMAGE",
+      "days_running": 26,
+      "title": "FREE 2 Weeks of Social Media Content + Bonus Templates",
+      "body": "\"I'm a numbers girl, my skills are with accounting and bookkeeping, not marketing. Social Accountant has given me the time to focus on what I do best!\"\n\n\"The value is phenomenal and has taught me so much about marketing as an Accountant. It's literally like having a marketing partner in my inbox.\"  \n\n\"I don't have to guess about what I am going to post. All I have to do is edit and schedule posts, stories, and reels. The best thing is I can get all my editing done in one day for the whole entire month. This was the best investment.\"\n\n\ud83d\udce2 Bookkeepers & Accountants\u2014As a business owner, you\u2019ve got plenty on your plate, from month-end close to client meetings, clean-ups, and oh, tax season!!\n\nDesigning marketing material is probably the last thing on your mind. \n\nThe good news? You can keep it t",
+      "cta": "Download",
+      "link": "http://fb.me/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1914920233227298",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_magnet_pattern_only",
+      "jev_conf": 0.63
+    },
+    {
+      "ad_archive_id": "3765554656920393",
+      "page": "TaxDome",
+      "display_format": "IMAGE",
+      "days_running": 20,
+      "title": "The early move that pays off in March",
+      "body": "Most firms file business extensions in March. A few file in January, on purpose. The reasoning is worth stealing.",
+      "cta": "Download",
+      "link": "https://go.taxdome.com/the-extension-season-guide",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=3765554656920393",
+      "named_testimonial_flag": false,
+      "jev_keep": "keep_as_magnet_pattern_only",
+      "jev_conf": 0.43
+    }
+  ],
+  "jev": {
+    "best_primary_example": {
+      "type": "choice",
+      "choice": "914432501713212",
+      "probabilities": {
+        "914432501713212": 0.66,
+        "1600739324727279": 0,
+        "1094014579789282": 0.17,
+        "1914920233227298": 0.01,
+        "1647071130088027": 0,
+        "1649956189164177": 0.14,
+        "3765554656920393": 0.01
+      },
+      "confidence": 0.61
+    },
+    "second_example": {
+      "type": "choice",
+      "choice": "1094014579789282",
+      "probabilities": {
+        "914432501713212": 0.31,
+        "1600739324727279": 0,
+        "1094014579789282": 0.38,
+        "1914920233227298": 0.05,
+        "1647071130088027": 0.01,
+        "1649956189164177": 0.2,
+        "3765554656920393": 0.05
+      },
+      "confidence": 0.28
+    },
+    "third_example": {
+      "type": "choice",
+      "choice": "914432501713212",
+      "probabilities": {
+        "914432501713212": 0.73,
+        "1600739324727279": 0.01,
+        "1094014579789282": 0.09,
+        "1914920233227298": 0.04,
+        "1647071130088027": 0.01,
+        "1649956189164177": 0.03,
+        "3765554656920393": 0.09
+      },
+      "confidence": 0.68
+    }
+  }
+}
