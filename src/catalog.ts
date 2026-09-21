@@ -17,7 +17,9 @@ export type FunnelAssetKind =
   | 'landing'
   | 'creative'
   | 'email'
-  | 'offer';
+  | 'offer'
+  | 'plan'
+  | 'ads';
 
 export interface FunnelAssetRef {
   id: string;
@@ -38,6 +40,9 @@ export interface OfferSpec {
   delivery: string[];
 }
 
+export const PRIMARY_CTA_LABEL =
+  'Grab your free Missing-Docs Spreadsheet' as const;
+
 export const OFFERS = {
   magnet: {
     id: 'month-end-missing-docs-spreadsheet',
@@ -45,7 +50,7 @@ export const OFFERS = {
     priceCents: null,
     billing: 'free' as const,
     promise:
-      'A single tracker bookkeepers use to chase every missing W-9, bank statement, and receipt before close — without another messy email thread.',
+      'Your named free gift: one tracker so you chase every missing W-9, bank statement, and receipt before close — without another messy email thread.',
     delivery: [
       'Client × document matrix (Google Sheets / Excel compatible)',
       'Status columns: Requested / Received / Exception',
@@ -58,7 +63,7 @@ export const OFFERS = {
     priceCents: 1900,
     billing: 'one_time' as const,
     promise:
-      'Self-serve reminder scripts + templates so clients send bank feeds, invoices, and payroll reports the first time you ask.',
+      'The $19 micro-yes after the free sheet: self-serve reminder scripts so clients send bank feeds, invoices, and payroll reports the first time you ask.',
     delivery: [
       '3 SMS / email reminder scripts (polite → firm)',
       'Client portal checklist one-pager',
@@ -70,12 +75,21 @@ export const OFFERS = {
 
 export const FUNNEL_CATALOG: FunnelAssetRef[] = [
   {
+    id: 'plan.funnel',
+    kind: 'plan',
+    sixM: 'map',
+    title: 'Funnel plan — Codie 6 Ms + ads-only GTM',
+    module: './plans/FUNNEL.md',
+    summary:
+      'Magnet → $19 pack → later upsell. FB ads only. 6 Ms checklist. No group cold posts.',
+  },
+  {
     id: 'copy.magnet',
     kind: 'copy',
     sixM: 'magnet',
     title: 'Magnet copy — spreadsheet lead magnet',
     module: './copy/magnet',
-    summary: 'Opt-in headlines and bullets for the free Month-End Missing-Docs Spreadsheet.',
+    summary: 'Opt-in headlines; primary CTA is Grab your free Missing-Docs Spreadsheet.',
   },
   {
     id: 'copy.pack',
@@ -83,15 +97,32 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'money',
     title: 'Paid pack copy — $19 Reminder Pack',
     module: './copy/pack',
-    summary: 'Offer page and checkout microcopy for the Missing Docs Reminder Pack.',
+    summary: 'Micro-paid yes after the free magnet — not a monthly first offer.',
   },
   {
     id: 'copy.ads',
     kind: 'copy',
     sixM: 'message',
-    title: 'FB ad headlines + primary text',
+    title: 'FB ad headlines + primary text (legacy variants)',
     module: './copy/ads',
-    summary: 'Paid social angles aimed at bookkeepers drowning in month-end doc chases.',
+    summary: 'Older angles; prefer src/ads adaptedAdVariants for Jev-mapped keepers.',
+  },
+  {
+    id: 'ads.adapted',
+    kind: 'ads',
+    sixM: 'message',
+    title: 'Adapted FB variants from long-running keepers',
+    module: './ads/adaptedVariants',
+    summary:
+      'Five original primary texts mapped to chaos_to_system, before_after_metrics, time_life_balance, tool_overwhelm.',
+  },
+  {
+    id: 'ads.ingested',
+    kind: 'ads',
+    sixM: 'map',
+    title: 'INGESTED_ADS + LONG_RUNNING_PATTERNS',
+    module: './ads/ingested',
+    summary: 'Jev-ingested Meta Ad Library keepers (provenance only — do not paste bodies).',
   },
   {
     id: 'copy.cta',
@@ -99,7 +130,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'make_the_ask',
     title: 'CTA variants',
     module: './copy/cta',
-    summary: 'Micro-commitment and hard-ask button / form labels.',
+    summary: 'One primary CTA, repeated; $19 is the secondary micro-paid ask.',
   },
   {
     id: 'landing.hero',
@@ -107,7 +138,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'message',
     title: 'Hero section',
     module: './landing/Hero',
-    summary: 'React hero for the magnet landing page.',
+    summary: 'React hero: ideal close first, spreadsheet second, primary CTA.',
   },
   {
     id: 'landing.offer',
@@ -115,7 +146,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'money',
     title: 'Offer section',
     module: './landing/Offer',
-    summary: 'React section for the $19 pack.',
+    summary: 'React section for the $19 pack (after magnet).',
   },
   {
     id: 'landing.proof',
@@ -131,7 +162,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'make_the_ask',
     title: 'CTA section',
     module: './landing/CtaBand',
-    summary: 'Final ask band for email capture or pack checkout.',
+    summary: 'Repeats Grab your free Missing-Docs Spreadsheet.',
   },
   {
     id: 'creatives.fb',
@@ -147,7 +178,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'magnet',
     title: 'Welcome email',
     module: './email/welcome',
-    summary: 'Delivers the spreadsheet + sets expectations.',
+    summary: 'Delivers the spreadsheet + sets expectations. Soft $19 later.',
   },
   {
     id: 'email.nurture',
@@ -155,7 +186,7 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'map',
     title: 'Nurture sequence stubs',
     module: './email/nurture',
-    summary: '3-touch nurture mapping pain → pack.',
+    summary: 'Compressed map: magnet delivered → $19 micro-yes. Ads-only reminder.',
   },
   {
     id: 'email.purchase',
@@ -163,50 +194,56 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
     sixM: 'money',
     title: 'Purchase / receipt stubs',
     module: './email/purchase',
-    summary: 'Post-purchase delivery for the Reminder Pack.',
+    summary: 'Post-purchase delivery for the Reminder Pack (Stripe, owned email).',
   },
 ];
 
 /** Codie Sanchez 6 Ms applied to this funnel (agent-readable map). */
 export const SIX_MS_MAP: Record<
   SixM,
-  { label: string; howWeUseIt: string; assetIds: string[] }
+  { label: string; howWeUseIt: string; checklist: string; assetIds: string[] }
 > = {
   magnet: {
     label: 'Magnet',
     howWeUseIt:
-      'Free Month-End Missing-Docs Spreadsheet — high-intent lead magnet for bookkeepers mid-close.',
+      'Specific named free gift: Month-End Missing-Docs Spreadsheet — before any paid ask.',
+    checklist: 'Named gift, not a vague “guide”. Delivered to owned email.',
     assetIds: ['copy.magnet', 'email.welcome'],
   },
   message: {
     label: 'Message',
     howWeUseIt:
-      'FB ads + hero copy about chasing W-9s, bank statements, and receipts every month-end.',
-    assetIds: ['copy.ads', 'landing.hero', 'creatives.fb'],
+      'Customer is the hero. Ideal life first (on-time close, evenings back). Mechanism (sheet / scripts) second. Adapt long-running keeper angles; never plagiarize.',
+    checklist: 'Hero copy + adapted ads use ideal-state first. One story, bookkeeper ICP.',
+    assetIds: ['copy.ads', 'ads.adapted', 'landing.hero', 'creatives.fb'],
   },
   micro_commitment: {
     label: 'Micro-commitment',
     howWeUseIt:
-      'Email opt-in for the spreadsheet; proof stubs reduce risk before the $19 ask.',
-    assetIds: ['landing.proof', 'copy.cta'],
+      'Free magnet opt-in, then $19 Reminder Pack — never $39/mo as the first paid yes.',
+    checklist: 'Free → $19 one-time. Proof stubs reduce risk before checkout.',
+    assetIds: ['landing.proof', 'copy.cta', 'copy.pack'],
   },
   make_the_ask: {
     label: 'Make the ask',
     howWeUseIt:
-      'Clear CTAs: Get the spreadsheet (free) → Unlock Reminder Pack ($19).',
-    assetIds: ['copy.cta', 'landing.cta'],
+      'ONE primary CTA: “Grab your free Missing-Docs Spreadsheet”. Personal “your”, strong verb, explicit trade (email for the named sheet). Repeat on ads, hero, CTA band.',
+    checklist: 'Primary CTA only on cold ads. $19 is a later, separate ask.',
+    assetIds: ['copy.cta', 'landing.cta', 'ads.adapted'],
   },
   money: {
     label: 'Money',
     howWeUseIt:
-      '$19 one-time Missing Docs Reminder Pack — self-serve, no sales call.',
+      'Own email + Stripe. FB ads only (no group cold posts). Margin target ≥ 2–3× CAC before scaling. This package never spends.',
+    checklist: 'Ads-only cold. Owned list. $19 micro-paid. Later upsell out of v1 scope.',
     assetIds: ['copy.pack', 'landing.offer', 'email.purchase'],
   },
   map: {
     label: 'Map',
     howWeUseIt:
-      'Nurture sequence: deliver magnet → show month-end cost of missing docs → pack offer → purchase onboarding.',
-    assetIds: ['email.nurture'],
+      'Compressed launch: weekend scaffold → Meta ads on magnet → retarget engagers to $19 pack. Nurture sequence is the email map.',
+    checklist: 'Do not skip magnet. Do not lead with retainer. Do not post groups.',
+    assetIds: ['plan.funnel', 'email.nurture', 'ads.ingested'],
   },
 };
 

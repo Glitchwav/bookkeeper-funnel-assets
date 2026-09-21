@@ -1,0 +1,289 @@
+{
+  "source": "monid apify curious_coder/facebook-ads-library-scraper",
+  "proxy": "active ads running >=30 days",
+  "ingested_at": "2026-09-21",
+  "kept": [
+    {
+      "ad_archive_id": "1649956189164177",
+      "page": "Social Accountant",
+      "days_running": 847,
+      "start": "2024-05-27",
+      "title": "FREE 2 Weeks of Ready-to-Post Content + Bonus Templates",
+      "body": "\ud83d\udce2 Bookkeepers and Accountants \ud83d\udce2 As a business owner, you already have a lot on your mind, from month-end close to client meetings to clean-ups. \n\nDesigning marketing material is probably the last thing on your mind. \n\nThe good news? You can keep it there!\n\nOur DONE-FOR-YOU content is designed to establish YOU as the bookkeeping or tax expert you are, drive engagement, and bring in new client leads! \ud83d\udcb0\n\nReady to get started? \n\nGrab for free 2 weeks worth of social media posts + bonus templates! \n\nClick \"DOWNLOAD\" now!",
+      "cta": "Download",
+      "link": "http://fb.me/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1649956189164177",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK"
+      ],
+      "display_format": "IMAGE",
+      "jev_ingest": "keep_adapt",
+      "jev_ingest_confidence": 0.14,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.3,
+        "keep_adapt": 0.37,
+        "discard_unusable": 0.05,
+        "keep_hook_only": 0.28
+      },
+      "jev_angle": "other_or_na",
+      "jev_angle_confidence": 0.84
+    },
+    {
+      "ad_archive_id": "1166356974846021",
+      "page": "Pam S Prior",
+      "days_running": 587,
+      "start": "2025-02-11",
+      "title": "",
+      "body": "\ud83d\udcb0 Stop Tax Bill Surprises \u2013 Take Control of Your Cash Now!\n\nSay goodbye to unexpected IRS bills and cash flow panic! The Tax Bill Buster helps you predict and plan for taxes months in advance\u2014without learning bookkeeping, hiring an expensive accountant, or dealing with financial headaches.\n\nDrop a comment below or DM me now, and I\u2019ll send you the Tax Bill Buster for FREE! \ud83d\ude80",
+      "cta": null,
+      "link": null,
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1166356974846021",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "keep_hook_only",
+      "jev_ingest_confidence": 0.26,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.35,
+        "keep_adapt": 0.17,
+        "discard_unusable": 0.03,
+        "keep_hook_only": 0.45
+      },
+      "jev_angle": "other_or_na",
+      "jev_angle_confidence": 0.96
+    },
+    {
+      "ad_archive_id": "796087482831403",
+      "page": "Workflows For Tax Pros",
+      "days_running": 357,
+      "start": "2025-09-29",
+      "title": "Join Workflows for Tax Pros",
+      "body": "When Laura first launched her firm, tax season felt like chaos.\n\nReturns piled up with no clear system.\n\nClients only heard from her once the work was done. \n\nAnd the phone rang nonstop with \u201cWhere\u2019s my return?\u201d calls.\n\n\ud83d\ude30 She and her team were always reacting, never ahead.\n\nThen she found Workflows for Tax Pros.\n\nWith ready-made pipelines, automated messages, and weekly guidance, Laura\u2019s firm made the shift from reactive to proactive.\n\n\u2705 Her staff now jumps in confidently, tagging her only when needed.\n\u2705 Clients get timely updates and love the smoother communication.\n\u2705 Laura finally has space to focus on tax planning\u2014and a real work-life balance.\n\nAs she puts it: \u201cMy team and I have seen a drastic improvement in how we work together and serve clients. I don\u2019t know how we lived without this before.\u201d\n\nNow, instead of drowning in phone calls, Laura\u2019s firm runs like clockwork. And she has th",
+      "cta": "Learn more",
+      "link": null,
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=796087482831403",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "keep_adapt",
+      "jev_ingest_confidence": 0.84,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.09,
+        "discard_unusable": 0,
+        "keep_adapt": 0.88,
+        "keep_hook_only": 0.03
+      },
+      "jev_angle": "chaos_to_system",
+      "jev_angle_confidence": 0.96
+    },
+    {
+      "ad_archive_id": "1918627868698430",
+      "page": "Workflows For Tax Pros",
+      "days_running": 357,
+      "start": "2025-09-29",
+      "title": "Join Workflows for Tax Pros",
+      "body": "Before: Excel trackers, status hunts, phones ringing off the hook.\n\nAfter Workflows for Tax Pros:\n\u2714\ufe0f Clients e-sign + upload in one portal (70%+ adoption; 200+ signed up in 20 minutes)\n\u2714\ufe0f 40\u201350% fewer \u201cWhere\u2019s my return?\u201d calls\n\u2714\ufe0f 3\u20135 hours saved every week\n\u2714\ufe0f Samantha ran ~900 returns\u2014with less chaos\u2014and even took 6 weeks away (vs 4 days before)\n\nAs Samanatha said: \u201c100% worth the investment\u2026 \u2018best funds we\u2019ve ever spent.\u2019\u201d\n\n\ud83c\udfa5 Join Workflows for Tax Pros and turn busy season into a business that runs itself.",
+      "cta": "Learn more",
+      "link": "https://workflowsfortaxpros.com/program/?utm_source=facebook-ads&utm_medium=social&utm_campaign=general",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1918627868698430",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "keep_adapt",
+      "jev_ingest_confidence": 0.9,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.05,
+        "discard_unusable": 0,
+        "keep_adapt": 0.93,
+        "keep_hook_only": 0.02
+      },
+      "jev_angle": "before_after_metrics",
+      "jev_angle_confidence": 0.92
+    },
+    {
+      "ad_archive_id": "1614645492842464",
+      "page": "Workflows For Tax Pros",
+      "days_running": 357,
+      "start": "2025-09-29",
+      "title": "Join Workflows for Tax Pros",
+      "body": "Between preschool pickups and client deadlines, Rebecca knew DIY-ing TaxDome would cost her time she didn\u2019t have.\n\nThat\u2019s when she found Workflows for Tax Pros and decided to join. \n\nAfter one automation session, she implemented what she learned and found that every engagement letter signed, every invoice paid\u2014within 2 weeks.\n\nHer returns went out faster (by the second week of February). \n\nShe grew from ~35 to ~55 higher-value clients (without hiring admin) and finally had a system she could pause and resume whenever life called.\n\n\u27a1\ufe0f  Join Workflows for Tax Pros and get back the hours you need to grow your firm and still be present for the people who matter most.",
+      "cta": "Learn more",
+      "link": "https://workflowsfortaxpros.com/program/?utm_source=facebook-ads&utm_medium=social&utm_campaign=general",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1614645492842464",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "keep_adapt",
+      "jev_ingest_confidence": 0.83,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.1,
+        "keep_adapt": 0.87,
+        "discard_unusable": 0,
+        "keep_hook_only": 0.03
+      },
+      "jev_angle": "time_life_balance",
+      "jev_angle_confidence": 0.83
+    },
+    {
+      "ad_archive_id": "1019731983575752",
+      "page": "Workflows For Tax Pros",
+      "days_running": 355,
+      "start": "2025-10-01",
+      "title": "Join Workflows for Tax Pros",
+      "body": "Shaan\u2019s tax biz exploded from 7 \u2192 125+ clients in one year.\n\nGreat problem! Until\u2026 the systems broke.\n\nToo many tools. Too many directions. No clear path.\n\nThen he found Workflows for Tax Pros:\n \u2705 Ready-to-use templates \u2192 live pipelines fast\n \u2705 Clean invoicing & engagement letters (no more undercharging)\n \u2705 Multi-channel communication clients actually use (app, chat, bookings)\n \u2705 A step-by-step roadmap from people who\u2019ve walked the path\n\nThe result? Smoother seasons, happier clients and year-over-year growth!\n\n\ud83c\udfa5 Join Workflows for Tax Pros today and get the same roadmap that turned Shaan\u2019s chaos into clarity.",
+      "cta": "Learn more",
+      "link": "https://workflowsfortaxpros.com/program/?utm_source=facebook-ads&utm_medium=social&utm_campaign=general",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1019731983575752",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "keep_adapt",
+      "jev_ingest_confidence": 0.76,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.15,
+        "keep_adapt": 0.82,
+        "discard_unusable": 0,
+        "keep_hook_only": 0.03
+      },
+      "jev_angle": "chaos_to_system",
+      "jev_angle_confidence": 0.61
+    },
+    {
+      "ad_archive_id": "675637575166635",
+      "page": "Workflows For Tax Pros",
+      "days_running": 346,
+      "start": "2025-10-10",
+      "title": "Join Workflows for Tax Pros",
+      "body": "Rebecca bought Tax Dome and then\u2026  hit the wall: complex setup, 7\u20138 half-built workflows, no time.\n\nShe joined Workflows for Tax Pros \u2192 one automation session later: signed ELs, paid invoices, real momentum.\n\n\ud83d\ude4c \u200b\u200bNow she ships returns earlier, serves fewer but bigger clients, and isn\u2019t glued to admin.\n\nJoin Workflows for Tax Pros and build a practice that fits your life, without sacrificing client experience.",
+      "cta": "Learn more",
+      "link": "https://workflowsfortaxpros.com/program/?utm_source=facebook-ads&utm_medium=social&utm_campaign=general",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=675637575166635",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "keep_adapt",
+      "jev_ingest_confidence": 0.83,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.08,
+        "discard_unusable": 0,
+        "keep_adapt": 0.88,
+        "keep_hook_only": 0.04
+      },
+      "jev_angle": "tool_overwhelm",
+      "jev_angle_confidence": 0.96
+    }
+  ],
+  "discarded": [
+    {
+      "ad_archive_id": "830613393237015",
+      "page": "Performance Financial CPA Tax and Accounting",
+      "days_running": 315,
+      "start": "2025-11-10",
+      "title": "Book an S-Corp Analysis",
+      "body": "Upgrade to Top-Tier Business Accounting, Bookkeeping, Tax Reduction Planning & More.\n\nMy name is Drake Vant Hul, and I'm a CPA that owns our little Des Moines Accounting Firm: Performance Financial.\n\nBook a Call & Let Us Take Over Your:\n\n- Monthly Bookkeeping & Accounting\n- Year-Long Tax Reduction Planning\n- Cash Flow & Balance Sheet Guidance\n- Year-End Tax Returns\n- CFO Level Guidance\n\nWe'll help ensure you get perfect financials, lowered taxes & a more productive team.\n\nWe'll save you time, help you lower taxes and we make this EASY!\n\nSwitching accountants has never been easier with our remote accounting & cloud based services.\n\nBook a Tax Analysis Today!",
+      "cta": "Learn more",
+      "link": "https://www.performancefinancialllc.com/contact",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=830613393237015",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "discard_wrong_icp",
+      "jev_ingest_confidence": 0.66,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.75,
+        "keep_adapt": 0.16,
+        "discard_unusable": 0.04,
+        "keep_hook_only": 0.05
+      },
+      "jev_angle": "other_or_na",
+      "jev_angle_confidence": 0.99
+    },
+    {
+      "ad_archive_id": "1172682515044743",
+      "page": "Bark.com",
+      "days_running": 263,
+      "start": "2026-01-01",
+      "title": "Online or In-person Services",
+      "body": "Rest easy knowing your finances are in capable hands. Find Bookkeepers with Bark",
+      "cta": "Learn more",
+      "link": "https://www.bark.com/en/us/bookkeeping/?popup=true",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1172682515044743",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "AUDIENCE_NETWORK",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "display_format": "IMAGE",
+      "jev_ingest": "discard_wrong_icp",
+      "jev_ingest_confidence": 0.7,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.78,
+        "discard_unusable": 0.2,
+        "keep_adapt": 0,
+        "keep_hook_only": 0.02
+      },
+      "jev_angle": "other_or_na",
+      "jev_angle_confidence": 0.99
+    },
+    {
+      "ad_archive_id": "2481829765590914",
+      "page": "Booming Bookkeeping Business",
+      "days_running": 193,
+      "start": "2026-03-12",
+      "title": "Live 5-Day Training Starts This Monday!",
+      "body": "Ready to learn a skill that can allow you to afford the life you want to live with enough free time to actually enjoy it?\n\nJoin me for the LIVE 5-Day Keyboard Rich Challenge where you'll learn why bookkeeping is the legitimate way to have total control over your income and schedule.\n\nAll you need to be successful is a willingness to learn bookkeeping...\n\nAnd the right training.\n\nSo join me for 5 days of training in my Keyboard Rich Challenge that starts next Monday.\n\nYou'll learn how to do some bookkeeping and even how to get paying clients.\n\nIf you're not happy with your current situation and are looking to make a change and take control of your financial future, these 5 days could be life-changing for you.\n\nThe challenge is starting soon, so save your spot now before we start next Monday.\n\nI look forward to working with you!",
+      "cta": "Learn more",
+      "link": "https://thebookkeepingchallenge.com/live",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=2481829765590914",
+      "platforms": [
+        "FACEBOOK",
+        "INSTAGRAM",
+        "MESSENGER",
+        "THREADS"
+      ],
+      "display_format": "VIDEO",
+      "jev_ingest": "discard_wrong_icp",
+      "jev_ingest_confidence": 0.96,
+      "jev_ingest_probs": {
+        "discard_wrong_icp": 0.97,
+        "discard_unusable": 0,
+        "keep_adapt": 0,
+        "keep_hook_only": 0.03
+      },
+      "jev_angle": "career_income",
+      "jev_angle_confidence": 0.99
+    }
+  ],
+  "jev_model": "typesafe/jev-1.13-20260917"
+}

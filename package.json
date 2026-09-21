@@ -1,7 +1,7 @@
 {
   "name": "@glitchwav/bookkeeper-funnel-assets",
-  "version": "0.1.0",
-  "description": "Bookkeeper FB-ads GTM funnel assets (copy, landing sections, creatives, email) plus thin @github-tools/sdk helpers for Glitchwav / JHulsinger discovery.",
+  "version": "0.2.0",
+  "description": "Bookkeeper FB-ads GTM funnel assets (Codie 6 Ms, magnet \u2192 $19 pack, adapted Meta keepers) plus thin @github-tools/sdk helpers.",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -12,10 +12,15 @@
     "./landing/*": "./src/landing/*",
     "./creatives/*": "./src/creatives/*",
     "./email/*": "./src/email/*",
-    "./github/*": "./src/github/*"
+    "./github/*": "./src/github/*",
+    "./ads": "./src/ads/index.ts",
+    "./ads/*": "./src/ads/*",
+    "./data/ingested": "./data/meta-ad-library-ingested.json"
   },
   "files": [
     "src",
+    "plans",
+    "data",
     "examples",
     "README.md"
   ],

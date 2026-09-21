@@ -1,15 +1,21 @@
-/** CTA / micro-commitment labels */
+/** CTA / micro-commitment labels — Codie: ONE primary ask, repeated. */
+
+export const PRIMARY_CTA = 'Grab your free Missing-Docs Spreadsheet' as const;
 
 export const ctaCopy = {
+  /** Primary ask everywhere cold traffic lands. */
+  primary: PRIMARY_CTA,
+  trade: 'Your work email for the named Month-End Missing-Docs Spreadsheet.',
   microCommitment: [
-    'Get the free spreadsheet',
+    PRIMARY_CTA,
     'Email me the tracker',
     'Send me the Missing-Docs sheet',
   ],
+  /** Secondary ask — only after magnet delivery / retarget. */
   makeTheAsk: [
-    'Unlock Reminder Pack — $19',
-    'Get the scripts',
-    'Buy the pack',
+    'Unlock your Reminder Pack — $19',
+    'Get your reminder scripts',
+    'Yes — send the $19 pack',
   ],
   formLabels: {
     email: 'Work email',
@@ -17,8 +23,8 @@ export const ctaCopy = {
     firmName: 'Bookkeeping firm (optional)',
   },
   buttonHelpers: {
-    magnet: 'Instant email delivery. No spam.',
-    pack: 'One-time $19. Instant download.',
+    magnet: 'Instant email delivery. Named sheet, not a newsletter bait-and-switch.',
+    pack: 'One-time $19. Instant download. No monthly plan.',
   },
 } as const;
 

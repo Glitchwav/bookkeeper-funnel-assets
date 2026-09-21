@@ -1,16 +1,16 @@
 import type { EmailStub } from './welcome.js';
 
-/** 3-touch nurture mapping Magnet → Message → Money (Codie Sanchez Map). */
+/** Compressed Map: magnet delivered → $19 micro-yes. Ads-only acquisition. */
 export const nurtureSequence: EmailStub[] = [
   {
     id: 'email.nurture.1',
-    subject: 'The doc that usually stalls your close',
-    previewText: 'Bank statements and why they slip.',
+    subject: 'The close where you leave on time',
+    previewText: 'Ideal week first — then one doc that usually stalls it.',
     bodyMarkdown: `Hi {{first_name|there}},
 
-Quick question while you’re in the spreadsheet: **which doc stalls you most** — bank statements, receipts, or payroll reports?
+Picture close week with every bank statement already in and your evening free.
 
-For most bookkeepers we talk to, it’s bank statements that arrive late or incomplete.
+Quick question while you’re in **your** spreadsheet: **which doc stalls you most** — bank statements, receipts, or payroll reports?
 
 Tip: request statements with a date range + PDF preference in the same ask. One clear ask beats three vague follow-ups.
 
@@ -21,7 +21,7 @@ Reply with your #1 gap and I’ll send a short script.
   {
     id: 'email.nurture.2',
     subject: 'Polite → firm: a reminder ladder that works',
-    previewText: 'Three touches. No awkwardness.',
+    previewText: 'Three touches. No awkwardness. $19 if you want them written.',
     bodyMarkdown: `Hi {{first_name|there}},
 
 Here’s a simple ladder for missing docs:
@@ -30,14 +30,14 @@ Here’s a simple ladder for missing docs:
 2. **Specific** — Exact file name + due date.  
 3. **Firm** — “We’ll close with an Exception note if this isn’t in by [date].”
 
-The **Missing Docs Reminder Pack** ($19) has ready-to-paste versions of all three, plus a client checklist.
+The **Missing Docs Reminder Pack** is the $19 micro-yes after the free sheet — ready-to-paste versions of all three, plus a client checklist. Not $39/mo.
 
 `,
   },
   {
     id: 'email.nurture.3',
-    subject: 'Close the loop on missing docs — $19',
-    previewText: 'Reminder Pack: scripts, checklist, exception log.',
+    subject: 'Your $19 yes: close the loop on missing docs',
+    previewText: 'Reminder Pack: scripts, checklist, exception log. One-time Stripe.',
     bodyMarkdown: `Hi {{first_name|there}},
 
 If the free spreadsheet helped you *see* the gaps, the **Missing Docs Reminder Pack** helps you *close* them.
@@ -46,7 +46,7 @@ If the free spreadsheet helped you *see* the gaps, the **Missing Docs Reminder P
 - Client checklist  
 - Exception log + handoff note  
 
-One-time **$19**. Instant download. No subscription.
+One-time **$19** via Stripe. Instant download. Owned by you. No Facebook group pitches — we only run ads + this list.
 
 {{pack_checkout_url}}
 

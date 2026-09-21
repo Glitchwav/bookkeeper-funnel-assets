@@ -1,16 +1,16 @@
-/** Paid offer: $19 Missing Docs Reminder Pack */
+/** Paid offer: $19 Missing Docs Reminder Pack — the micro-yes, not the first ask. */
 
 export const packCopy = {
   productName: 'Missing Docs Reminder Pack',
   priceDisplay: '$19',
   priceCents: 1900,
   headlines: [
-    'Get clients to send missing docs the first time you ask',
-    '$19 Reminder Pack for bookkeepers tired of month-end chases',
+    'Your $19 yes: clients send missing docs the first time you ask',
+    'Reminder Pack for bookkeepers who already grabbed the free sheet',
     'Scripts + checklists so bank statements show up before close',
   ],
   subheads: [
-    'Self-serve templates: SMS/email reminders, a client checklist, and an exception log — so you stop rewriting the same chase email.',
+    'After the free spreadsheet shows the gaps, this one-time pack gives you the scripts to close them. Not a $39/mo plan. Not a sales call.',
   ],
   includes: [
     '3 reminder scripts (polite → firm) for email or SMS',
@@ -27,9 +27,13 @@ export const packCopy = {
       q: 'Will this work for multiple clients?',
       a: 'Yes. Copy once, swap the client name and doc list. The pack is built for portfolio use.',
     },
+    {
+      q: 'Is this a subscription?',
+      a: 'No. One-time $19 via Stripe to your checkout. Own the files.',
+    },
   ],
-  checkoutCta: 'Unlock the Reminder Pack — $19',
-  guaranteeNote: 'One-time purchase. Instant download. No subscription.',
+  checkoutCta: 'Unlock your Reminder Pack — $19',
+  guaranteeNote: 'One-time purchase. Instant download. No subscription. Email + Stripe owned by you.',
 } as const;
 
 export type PackCopy = typeof packCopy;

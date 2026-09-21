@@ -4,6 +4,7 @@ export {
   FUNNEL_CATALOG,
   OFFERS,
   SIX_MS_MAP,
+  PRIMARY_CTA_LABEL,
   getAssetsBySixM,
   getAssetById,
 } from './catalog.js';
@@ -18,7 +19,7 @@ export { magnetCopy } from './copy/magnet.js';
 export { packCopy } from './copy/pack.js';
 export { adVariants, adAudienceNotes } from './copy/ads.js';
 export type { AdVariant } from './copy/ads.js';
-export { ctaCopy } from './copy/cta.js';
+export { ctaCopy, PRIMARY_CTA } from './copy/cta.js';
 
 export {
   Hero,
@@ -43,6 +44,22 @@ export {
   purchaseEmails,
 } from './email/index.js';
 export type { EmailStub } from './email/index.js';
+
+export {
+  INGESTED_ADS,
+  LONG_RUNNING_PATTERNS,
+  PREFERRED_ANGLES,
+  keptByPreferredAngle,
+  adaptedAdVariants,
+} from './ads/index.js';
+export type {
+  IngestedAd,
+  IngestedBundle,
+  JevAngle,
+  JevIngestLabel,
+  LongRunningPattern,
+  AdaptedAdVariant,
+} from './ads/index.js';
 
 export {
   createExplorerTools,

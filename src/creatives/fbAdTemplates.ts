@@ -21,10 +21,10 @@ export const fbAdTemplates: AdCreativeTemplate[] = [
     format: 'single_image',
     primaryText:
       'Bookkeepers: map every missing W-9, bank statement, and receipt before close. Free Month-End Missing-Docs Spreadsheet.',
-    headline: 'Free missing-docs tracker',
+    headline: 'Grab your free Missing-Docs Spreadsheet',
     description: 'Built for month-end close',
     ctaButton: 'SIGN_UP',
-    overlayLines: ['Month-end', 'Missing docs?', 'Get the free sheet'],
+    overlayLines: ['Month-end', 'Missing docs?', 'Grab your free sheet'],
   },
   {
     id: 'creative.pack',
@@ -33,7 +33,7 @@ export const fbAdTemplates: AdCreativeTemplate[] = [
       'Reminder scripts that get bank feeds and payroll reports on the first ask. $19 self-serve pack for bookkeepers.',
     headline: 'Missing Docs Reminder Pack — $19',
     description: 'Instant download',
-    ctaButton: 'SHOP_NOW',
+    ctaButton: 'LEARN_MORE',
     overlayLines: ['$19', 'Scripts that get replies', 'For bookkeepers'],
   },
   {

@@ -13,7 +13,7 @@ export interface ProofProps {
 const DEFAULT_ITEMS: ProofItem[] = [
   {
     quote:
-      'We used to burn a full afternoon chasing statements. The matrix made gaps obvious by Tuesday.',
+      'Close week used to steal the evening. The matrix made gaps obvious by Tuesday — I left on time.',
     attribution: 'Stub — replace with real bookkeeper testimonial',
   },
   {
@@ -37,7 +37,7 @@ export function Proof({ items = DEFAULT_ITEMS, style }: ProofProps) {
         ...style,
       }}
     >
-      <h2 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>What bookkeepers notice</h2>
+      <h2 style={{ fontSize: '1.25rem', marginBottom: '1rem' }}>The close you actually want</h2>
       <div style={{ display: 'grid', gap: '1rem' }}>
         {items.map((item) => (
           <blockquote

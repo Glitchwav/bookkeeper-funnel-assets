@@ -7,7 +7,7 @@ export const purchaseEmails: EmailStub[] = [
     previewText: 'Download links + how to use this week’s close.',
     bodyMarkdown: `Hi {{first_name|there}},
 
-Thanks for grabbing the **Missing Docs Reminder Pack**.
+Thanks for your $19 yes — here’s the **Missing Docs Reminder Pack**.
 
 **Downloads**  
 - Reminder scripts (polite / specific / firm)  
@@ -17,7 +17,7 @@ Thanks for grabbing the **Missing Docs Reminder Pack**.
 
 **This week:** pick one client who’s usually late, send the polite script today, and schedule the firm script for 48 hours later.
 
-Questions? Just reply to this email.
+Questions? Just reply to this email (your list, our Stripe receipt).
 
 `,
   },

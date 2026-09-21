@@ -1,5 +1,6 @@
 import type { CSSProperties } from 'react';
 import { magnetCopy } from '../copy/magnet.js';
+import { PRIMARY_CTA } from '../copy/cta.js';
 
 export interface HeroProps {
   headline?: string;
@@ -9,11 +10,11 @@ export interface HeroProps {
   style?: CSSProperties;
 }
 
-/** Magnet landing hero — no Next-only APIs. */
+/** Magnet landing hero — ideal life first, mechanism second. */
 export function Hero({
   headline = magnetCopy.headlines[0],
   subhead = magnetCopy.subheads[0],
-  ctaLabel = magnetCopy.optInLabel,
+  ctaLabel = PRIMARY_CTA,
   onCtaClick,
   style,
 }: HeroProps) {
@@ -55,6 +56,9 @@ export function Hero({
       >
         {ctaLabel}
       </button>
+      <p style={{ fontSize: 13, opacity: 0.7, marginTop: 8 }}>
+        Your work email for the named Month-End Missing-Docs Spreadsheet.
+      </p>
     </section>
   );
 }

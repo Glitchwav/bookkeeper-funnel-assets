@@ -1,5 +1,5 @@
 import type { CSSProperties } from 'react';
-import { ctaCopy } from '../copy/cta.js';
+import { ctaCopy, PRIMARY_CTA } from '../copy/cta.js';
 
 export interface CtaBandProps {
   mode?: 'magnet' | 'pack';
@@ -7,10 +7,9 @@ export interface CtaBandProps {
   style?: CSSProperties;
 }
 
-/** Final ask band. */
+/** Final ask band — repeats the one primary CTA on magnet pages. */
 export function CtaBand({ mode = 'magnet', onAction, style }: CtaBandProps) {
-  const label =
-    mode === 'magnet' ? ctaCopy.microCommitment[0] : ctaCopy.makeTheAsk[0];
+  const label = mode === 'magnet' ? PRIMARY_CTA : ctaCopy.makeTheAsk[0];
   const helper =
     mode === 'magnet' ? ctaCopy.buttonHelpers.magnet : ctaCopy.buttonHelpers.pack;
 
@@ -28,7 +27,7 @@ export function CtaBand({ mode = 'magnet', onAction, style }: CtaBandProps) {
     >
       <h2 style={{ fontSize: '1.4rem', marginBottom: '0.75rem' }}>
         {mode === 'magnet'
-          ? 'Get the free Month-End Missing-Docs Spreadsheet'
+          ? 'Grab your free Missing-Docs Spreadsheet'
           : 'Ready for reminder scripts that get replies?'}
       </h2>
       <button
