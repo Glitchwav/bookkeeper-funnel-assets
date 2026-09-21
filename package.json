@@ -1,0 +1,59 @@
+{
+  "name": "@glitchwav/bookkeeper-funnel-assets",
+  "version": "0.1.0",
+  "description": "Bookkeeper FB-ads GTM funnel assets (copy, landing sections, creatives, email) plus thin @github-tools/sdk helpers for Glitchwav / JHulsinger discovery.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./catalog": "./src/catalog.ts",
+    "./copy/*": "./src/copy/*",
+    "./landing/*": "./src/landing/*",
+    "./creatives/*": "./src/creatives/*",
+    "./email/*": "./src/email/*",
+    "./github/*": "./src/github/*"
+  },
+  "files": [
+    "src",
+    "examples",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "example:import": "tsx examples/import-assets.ts",
+    "example:stars": "tsx examples/explore-stars.ts"
+  },
+  "peerDependencies": {
+    "@github-tools/sdk": "^1.16.0",
+    "ai": "^6.0.97 || ^7.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@github-tools/sdk": "^1.16.1",
+    "@types/react": "^19.0.0",
+    "ai": "^6.0.97",
+    "react": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "zod": "^4.3.6",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "bookkeeper",
+    "funnel",
+    "facebook-ads",
+    "gtm",
+    "github-tools",
+    "glitchwav"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glitchwav/bookkeeper-funnel-assets.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
