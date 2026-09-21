@@ -85,7 +85,10 @@ for (const ad of adaptedAdVariants) {
 
 ## Plans
 
-See [`plans/FUNNEL.md`](plans/FUNNEL.md) for the full 6 Ms checklist and compressed launch map.
+- [`plans/FUNNEL.md`](plans/FUNNEL.md) — 6 Ms law, offer ladder, ads-only money rules.
+- [`plans/SPIN-UP.md`](plans/SPIN-UP.md) — **this-week spin-up**: Weekend 1 deliverables, Days 1–7 magnet ads ($10–20/day), Days 8–14 $19 retarget, 3–5 `adaptedAdVariants` to run, definition of spun up, explicit skips.
+
+Agents executing GTM should open **SPIN-UP** first, then pull `PRIMARY_CTA` / `adaptedAdVariants` / `SIX_MS_MAP`.
 
 ## GitHub helpers
 

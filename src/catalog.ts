@@ -84,6 +84,15 @@ export const FUNNEL_CATALOG: FunnelAssetRef[] = [
       'Magnet → $19 pack → later upsell. FB ads only. 6 Ms checklist. No group cold posts.',
   },
   {
+    id: 'plan.spin-up',
+    kind: 'plan',
+    sixM: 'map',
+    title: 'Spin-up runbook — this week',
+    module: './plans/SPIN-UP.md',
+    summary:
+      'Weekend scaffold; Days 1–7 magnet ads $10–20/day; Days 8–14 retarget $19; spun-up checklist; skips.',
+  },
+  {
     id: 'copy.magnet',
     kind: 'copy',
     sixM: 'magnet',
@@ -243,7 +252,7 @@ export const SIX_MS_MAP: Record<
     howWeUseIt:
       'Compressed launch: weekend scaffold → Meta ads on magnet → retarget engagers to $19 pack. Nurture sequence is the email map.',
     checklist: 'Do not skip magnet. Do not lead with retainer. Do not post groups.',
-    assetIds: ['plan.funnel', 'email.nurture', 'ads.ingested'],
+    assetIds: ['plan.funnel', 'plan.spin-up', 'email.nurture', 'ads.ingested'],
   },
 };
 
